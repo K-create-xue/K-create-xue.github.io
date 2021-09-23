@@ -5,17 +5,3 @@
 
 
  
-
-<head>
-    <title>背景切换11</title>
-    <link href="css/bgchage.css" type="text/css" rel="Stylesheet" />
-       
-</head>
-<body>
- 
-<div><ul><li></li><li></li><li></li><li></li></ul></div>
-<!--    <div>1</div><div>2</div><div>3</div><div>4</div>-->
-</body>
-<script src="js/bgchage.js" type="text/javascript" ></script> 
-</html>
- 
