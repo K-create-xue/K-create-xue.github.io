@@ -5,48 +5,62 @@
 
 
 
-
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-<script type="text/javascript">
-function backImage(){
-	document.body.style.backgroundImage="URL(ph/1.jpg)";
-	document.body.style.backgroundPosition="left";
-	document.body.style.backgroundRepeat="no-repeat";
-	document.body.style.backgroundAttachment="fixed";
-}
-function over(obj){
-	obj.style.backgroundColor="blue";
-	obj.style.color="white";
-}
-function out(obj){
-	obj.style.backgroundColor="";
-	obj.style.color="";
-}
-</script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>背景</title>
+ <style>
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ li {
+ list-style: none;
+ }
+ img{
+ border: 0px;
+ vertical-align: middle;
+ width: 192px;
+ }
+ div{
+ width: 768px;
+ height: 120px;
+ }
+ div ul {
+ overflow: hidden;
+ background-color: pink ;
+ margin: 100px auto;
+ }
+ div ul li {
+ float: left;
+ width: 192px;
+ height: 120px;
+ cursor: pointer;
+ }
+ body{
+ background: url(images/1.jpg) no-repeat center top;
+ }
+ </style>
 </head>
-<body οnlοad="backImage();">
-<table border="1" cellspacing="0" width="234" height="77">
-<tr align="center" id="t1" οnmοusemοve="over(this);" οnmοuseοut="out(this);">
-<td width="52"> </td>
-<td width="65">商品</td>
-<td width="95">价格（元）</td>
-</tr>
-<tr align="center" id="t2" οnmοusemοve="over(this);" οnmοuseοut="out(this);">
-<td>A 商场</td>
-<td>S 商品</td>
-<td>100</td>
-</tr>
-<tr align="center" id="t3" οnmοusemοve="over(this);" οnmοuseοut="out(this);">
-<td>B 商场</td>
-<td>S 商品</td>
-<td>80</td>
-</tr>
-</table>
+<body>
+ <div>
+ <ul>
+ <li><img src=images/1.jpg> </li>
+ <li><img src=images/2.jpg></li>
+ <li><img src=images/3.jpg></li>
+ <li><img src=images/4.jpg></li>
+ </ul>
+ </div>
+ <script>
+ var img = document.querySelector('ul').querySelectorAll('img')
+ for(var i = 0 ;i < img.length;i++){
+ img[i].onclick = function(){
+ document.body.style.backgroundImage='url('+this.src+')';
+ }
+ }
+ </script>
 </body>
 </html>
