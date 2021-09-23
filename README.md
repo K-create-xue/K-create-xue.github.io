@@ -3,23 +3,19 @@
 
 [](https://user-images.githubusercontent.com/76169472/134500001-9af9dfc0-acd9-453b-ae14-5206cd1104aa.jpg)
 
-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>背景切换11</title>
+    <link href="css/bgchage.css" type="text/css" rel="Stylesheet" />
+       
 </head>
 <body>
-    <div>
-        <ul>
-            <li><img src="https://user-images.githubusercontent.com/76169472/134500001-9af9dfc0-acd9-453b-ae14-5206cd1104aa.jpg" alt=""></li>
-            <li><img src="images/2.jpg" alt=""></li>
-            <li><img src="images/3.jpg" alt=""></li>
-            <li><img src="images/4.jpg" alt=""></li>
-        </ul>
-    </div>
+ 
+<div><ul><li></li><li></li><li></li><li></li></ul></div>
+<!--    <div>1</div><div>2</div><div>3</div><div>4</div>-->
 </body>
+<script src="js/bgchage.js" type="text/javascript" ></script> 
 </html>
-
+ 
