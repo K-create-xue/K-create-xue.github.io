@@ -5,7 +5,7 @@
 
 
  
-<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>背景切换11</title>
     <link href="css/bgchage.css" type="text/css" rel="Stylesheet" />
