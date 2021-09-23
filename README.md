@@ -4,63 +4,22 @@
 [](https://user-images.githubusercontent.com/76169472/134500001-9af9dfc0-acd9-453b-ae14-5206cd1104aa.jpg)
 
 
-
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>背景</title>
- <style>
- *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- }
- li {
- list-style: none;
- }
- img{
- border: 0px;
- vertical-align: middle;
- width: 192px;
- }
- div{
- width: 768px;
- height: 120px;
- }
- div ul {
- overflow: hidden;
- background-color: pink ;
- margin: 100px auto;
- }
- div ul li {
- float: left;
- width: 192px;
- height: 120px;
- cursor: pointer;
- }
- body{
- background: url(images/1.jpg) no-repeat center top;
- }
- </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
- <div>
- <ul>
- <li><img src=images/1.jpg> </li>
- <li><img src=images/2.jpg></li>
- <li><img src=images/3.jpg></li>
- <li><img src=images/4.jpg></li>
- </ul>
- </div>
- <script>
- var img = document.querySelector('ul').querySelectorAll('img')
- for(var i = 0 ;i < img.length;i++){
- img[i].onclick = function(){
- document.body.style.backgroundImage='url('+this.src+')';
- }
- }
- </script>
+    <div>
+        <ul>
+            <li><img src="https://user-images.githubusercontent.com/76169472/134500001-9af9dfc0-acd9-453b-ae14-5206cd1104aa.jpg" alt=""></li>
+            <li><img src="images/2.jpg" alt=""></li>
+            <li><img src="images/3.jpg" alt=""></li>
+            <li><img src="images/4.jpg" alt=""></li>
+        </ul>
+    </div>
 </body>
 </html>
+
