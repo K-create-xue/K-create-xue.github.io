@@ -2,3 +2,6 @@
 # [简历-(实习).pdf](https://github.com/K-create-xue/K-create-xue.github.io/files/7217252/review_.-.-._20210923193709.pdf)
 # [jian.pdf](https://github.com/K-create-xue/K-create-xue.github.io/blob/main/%E7%AE%80%E5%8E%86..pdf)
 ![](https://user-images.githubusercontent.com/76169472/134500001-9af9dfc0-acd9-453b-ae14-5206cd1104aa.jpg)
+![Uploading image.png…]()
+
+
